@@ -1,0 +1,23 @@
+.container {
+    padding: 30px;
+    width: 315px;
+    border-radius: 20px;
+}
+.container h2 {
+    font-size: 18px;
+}
+button {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 20px;
+}
+button:hover {
+    background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+
+}
