@@ -1,6 +1,7 @@
 .container {
     padding: 30px;
-    width: 315px;
+    width: 100%;
+    min-width: 315px;
     border-radius: 20px;
 }
 .container h2 {

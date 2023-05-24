@@ -8,7 +8,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 315px;
+    width: 100%;
+    min-width: 315px;
 }
 .container_score {
     background: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
@@ -41,4 +42,10 @@
     font-size: 18px;
     opacity: .75;
     padding: 25px;
+}
+@media (max-width: 750px) {
+    .container {
+        border-radius: 0 0 20px 20px;
+
+    }
 }
